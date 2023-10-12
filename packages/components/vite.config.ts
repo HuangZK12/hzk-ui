@@ -22,7 +22,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "../../hzk-ui/es",
+          dir: "../hzk-ui/es",
         },
         {
           //打包格式
@@ -33,7 +33,7 @@ export default defineConfig({
           preserveModules: true,
           exports: "named",
           //配置打包根目录
-          dir: "../../hzk-ui/lib",
+          dir: "../hzk-ui/lib",
         },
       ],
     },
@@ -46,7 +46,7 @@ export default defineConfig({
     vue2(),
     dts({
       entryRoot: "./src",
-      outDir: ["../../hzk-ui/es/src", "../../hzk-ui/lib/src"],
+      outDir: ["../hzk-ui/es/src", "../hzk-ui/lib/src"],
     }),
     {
       name: "style",

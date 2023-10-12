@@ -1,3 +1,3 @@
-import { say } from "@k-ui/components";
+import { say } from "@hzk-ui/components";
 
 say()
