@@ -1,0 +1,28 @@
+{
+  "name": "hzk-ui",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "hzk-ui",
+    "vue3组件库"
+  ],
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "author": "hzk",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.js",
+  "scripts": {
+    "release": "release-it"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HuangZK12/hzk-ui.git"
+  }
+}
